@@ -12,6 +12,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        theodo();
         return $this->render('default/index.html.twig');
     }
 }
